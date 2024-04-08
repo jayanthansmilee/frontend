@@ -1,0 +1,238 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color:rgb(250, 249, 249);
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+        text-align: right;
+
+  }
+  .header__username
+  {
+    background-color:rgb(190, 184, 184);
+    display:;
+    align-items:center;
+    width: 100px;
+    position: absolute;
+top: 10px;
+left: 15px;
+ 
+   
+  }
+  .payment__tit
+  {
+    width: 200px;
+    background-color: #f2f2f2;
+    padding: 1rem 2rem;
+  } 
+  }
+  
+  .header__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .header__right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__username {
+    margin-right: 1rem;
+  }
+  
+  .header__icons {
+    display: flex;
+  }
+  
+  .header__icon {
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  
+  .header__icon-svg {
+    fill: currentColor;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .header__button {
+    background-color:rgb(73, 174, 73);
+    padding: 0% 2rem;
+
+    text-align: right;
+    right: 52%;
+     text-align: right;
+      position: absolute;
+      top: 10px;
+      right: 15px;
+
+
+  }
+  .add__button{
+    background-color: rgb(73, 174, 73);
+    border: green;
+    padding: 0% 2rem;
+
+  }
+  
+  .header__button:hover {
+    background-color:white;
+  }
+  
+  /* Main styles */
+  .main {
+    display: flex;
+  }
+  
+  /* Sidebar styles */
+  
+  .para__text{
+    -webkit-text-size-adjust: 0%;
+  }
+  
+  .sidebar__nav-link:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .sidebar__nav-item--active .sidebar__nav-link {
+    background-color: #e6e6e6;
+  }
+  
+  
+  /* Content styles */
+  .main__content {
+    flex: 1;
+    padding: 1rem 2rem;
+  }
+  
+  .content__container {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content__title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .image__cent
+  {
+    padding: 3rem;
+    width: 100px;
+  }
+  
+  .card {
+    width: calc(33% - 1rem);
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card__body {
+    padding: 1rem;
+  }
+  
+  .card__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .card__title {
+    font-size: 1rem;
+    font-weight:bold;
+  }
+  
+  .card__news
+  {
+    text-align:;
+    fornt: size 10px;
+   position:absolute;left: 18%;
+  }
+ .word__uu
+ {
+  color: grey;
+ }
+ .annc__p
+ {
+  text-align:right;
+    fornt: size 10px;
+   padding: 0% 1rem;
+  right: 150%;
+  width: 500px;
+ }
+ .read__uu
+ {
+ color: green;
+ }
+  .img__im
+  {
+    position: absolute;
+top: -120%;
+left: 170%;
+  }
+  .medal__gold{
+
+    position: absolute;
+      top: 10px;
+      right: 15px;
+  }
+  .sidebar {
+    height: 97%;
+    width: 60px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(239, 236, 236);
+     padding-top: 170px;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 15 px;}
+  }
